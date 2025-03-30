@@ -28,3 +28,6 @@ jobs:
           git add snake.svg
           git commit -m "Generated snake animation"
           git push -f origin output
+      - name: List generated files
+        run: ls -lah dist
+
