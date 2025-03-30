@@ -23,13 +23,11 @@ jobs:
       - name: List generated files
         run: ls -lah dist
 
-      - name: Fix permissions
-        run: chmod +w dist/snake.svg
+      - name: Copy file to modifiable location
+        run: cp dist/snake.svg snake.svg
 
       - name: Convert white squares to gray
-        run: |
-          # Reemplaza la definición de --ce de #ebedf0 a #808080
-          sed -i 's/--ce:#ebedf0;/--ce:#808080;/g' dist/snake.svg
+        run: sed -i 's/--ce:#ebedf0;/--ce:#808080;/g' snake.svg
 
       - name: Push to output branch
         env:
@@ -39,7 +37,6 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git checkout --orphan output
           git reset
-          cp dist/snake.svg snake.svg
           git add snake.svg
           git commit -m "Generated snake animation with gray squares"
           git push -f https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git output
