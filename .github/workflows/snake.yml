@@ -1,8 +1,6 @@
 name: Generate Snake Animation
 
 on:
-  schedule:
-    - cron: "0 0 * * *"  # Se ejecuta todos los días a medianoche
   workflow_dispatch:  # Permite ejecutarlo manualmente
 
 jobs:
@@ -18,16 +16,17 @@ jobs:
           github_user_name: samcastroca
           outputs: dist/snake.svg
 
+      - name: List generated files
+        run: ls -lah dist
+
       - name: Push to output branch
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git checkout --orphan output
           git reset
-          mv dist/snake.svg snake.svg
+          cp dist/snake.svg snake.svg  # Usamos cp en lugar de mv para evitar errores de permisos
           git add snake.svg
           git commit -m "Generated snake animation"
           git push -f origin output
-      - name: List generated files
-        run: ls -lah dist
 
