@@ -23,6 +23,9 @@ jobs:
       - name: List generated files
         run: ls -lah dist
 
+      - name: Fix permissions
+        run: chmod +w dist/snake.svg
+
       - name: Convert white squares to gray
         run: |
           # Reemplaza la definición de --ce de #ebedf0 a #808080
