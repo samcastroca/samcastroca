@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true
 
       - name: Generate snake animation
         uses: Platane/snk@v3
@@ -20,6 +22,11 @@ jobs:
 
       - name: List generated files
         run: ls -lah dist
+
+      - name: Convert white squares to gray
+        run: |
+          # Reemplaza la definición de --ce de #ebedf0 a #808080
+          sed -i 's/--ce:#ebedf0;/--ce:#808080;/g' dist/snake.svg
 
       - name: Push to output branch
         env:
@@ -31,6 +38,6 @@ jobs:
           git reset
           cp dist/snake.svg snake.svg
           git add snake.svg
-          git commit -m "Generated snake animation"
+          git commit -m "Generated snake animation with gray squares"
           git push -f https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git output
 
