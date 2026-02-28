@@ -34,6 +34,7 @@ My goal is to keep learning, solving complex problems, and creating useful and i
 <div align="center">
   
   <br>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=samcastroca&theme=tokyo-night&hide_border=true" alt="Samuel's Activity Graph" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=samcastroca&theme=tokyonight" alt="GitHub Streak" />
 </div>
 </div>
