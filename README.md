@@ -32,7 +32,7 @@ My goal is to keep learning, solving complex problems, and creating useful and i
 ### 📊 My GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=samcastroca&show_icons=true&theme=tokyonight" alt="Samuel's GitHub Stats" />
+  
   <br>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=samcastroca&theme=tokyonight" alt="GitHub Streak" />
 </div>
