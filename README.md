@@ -13,7 +13,7 @@ My goal is to keep learning, solving complex problems, and creating useful and i
 - 🔭 I’m currently working on **[your current AI or university project]**
 - 🌱 I’m currently diving deeper into **[Machine Learning, Data Science, or a library like TensorFlow/PyTorch]**
 - 💬 Ask me about **Python, C, or Computer Science fundamentals**
-- 📫 How to reach me: [Visit my LinkedIn]([https://www.linkedin.com/in/YOUR-USER-HERE/](https://www.linkedin.com/in/samuel-castro-carmona-b84315238/))
+- 📫 How to reach me: [Visit my LinkedIn](https://www.linkedin.com/in/YOUR-USER-HERE/](https://www.linkedin.com/in/samuel-castro-carmona-b84315238/))
 - ⚡ Fun fact: **[Optional: e.g., I love automating boring tasks]**
 
 ---
