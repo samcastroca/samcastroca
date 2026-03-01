@@ -1,7 +1,7 @@
 # Hi 👋! I'm Samuel
 
 <div align="center">
-  <iframe src="https://giphy.com/embed/fsoCk5kgOcYMM" width="480" height="254" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/ghost-shell-outghost-fsoCk5kgOcYMM">via GIPHY</a></p>
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWJtZHViZXJvaDIwajUxcnVlMDczYWhzZ3ZjODZ5bHljczc3ZnlrayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fsoCk5kgOcYMM/giphy.gif" width="400" alt="Typing Animation"/>
 </div>
 
 ### 👨‍💻 About Me
