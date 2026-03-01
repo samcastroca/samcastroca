@@ -1,7 +1,7 @@
 # Hi 👋! I'm Samuel
 
 <div align="center">
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWJtZHViZXJvaDIwajUxcnVlMDczYWhzZ3ZjODZ5bHljczc3ZnlrayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fsoCk5kgOcYMM/giphy.webp" width="400" alt="Typing Animation"/>
+<img src="gis.gif" width="400" alt="Typing Animation">
 </div>
 
 ### 👨‍💻 About Me
