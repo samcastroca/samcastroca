@@ -1,4 +1,4 @@
-# Hi 👋! I'm Samuel
+# Hi! I'm Samuel 👋
 
 <div align="center">
 <img src="gis.gif" width="400" alt="Typing Animation">
